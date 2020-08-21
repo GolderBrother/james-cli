@@ -1,0 +1,3 @@
+#! /usr/bin/env node
+require('../src/main.js');
+// 上面这一行表示用node来执行这个脚本
