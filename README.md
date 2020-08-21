@@ -571,8 +571,11 @@ const repoUrl = config("getVal", "repo");
 
 终于走到最后一步啦,我们将项目推送 npm 上,流程不再赘述啦！
 
+这边要注意的是，需要发布到`npm`源，而不是`cnpm`哦！
+
 ```bash
 nrm use npm # 切换npm源
+npm addUser # 登录
 npm publish # 已经发布成功～～
 ```
 
